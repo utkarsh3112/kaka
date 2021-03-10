@@ -1,229 +1,162 @@
-<!DOCTYPE html> 
-<html>
-    <head>
-        <title></title>
-        <link rel="stylesheet" href="page.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        
-    </head>
-    <body>
-        
-          <ul class="nav-dots" id="js-dots">
-            <li class="nav-dot"></li>
-            <li class="nav-dot"></li>
-            <li class="nav-dot"></li>
-            <li class="nav-dot"></li>
-            <li class="nav-dot"></li>
-        </ul>
-        
-        
-        <main class="main">
-            
-            
-            <section class="section" >
-              
-              <img src="images/logo-removebg-preview.png" alt="" id="logo">
-              <div id="utsav0">
-                <button type="button" class="btn btn-warning b3" id="b3" >LOGIN</button>
-                <button type="button" class="btn btn-warning" id="b3">SIGN-UP</button>                   
-                <button id="b2"><img src="images/7114151-512 1 (1).png" alt="" id="language"></button>
-              </div>
-                
-                <div id="utsav1">
-                    <img src="images/logo-removebg-preview.png" alt="" id="main2">
-                    <div id="utsav">UTSAV</div>
-                    <h1 id="heading">Let's explore more of India</h1>
-                    <p id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit<br> Error consectetur tempore placeat amet quis vitae fugit</p>
-                    <button class="btn btn-warning" id="b4">LOGIN</button>
-                    <button class="btn btn-warning" id="b1">SIGN-UP</button>
-                    <p id="explore"><img src="images/imageedit_1_4694143777.png">Explore UTSAV</p>
-                    <button id="download"><img src="images/iconfinder_logo_brand_brands_logos_playstore_google_2993672 1.png">Download Now</button>
-                </div>
-                <div id="utsav2">
-                  <p><a href="" id="links">Terms</a> | <a href="" id="links">Privacy</a> | <a href="" id="links">Support</a></p>
-                </div>
-                <div id="utsav3">
-                  <p><a href="" id="links"><img src="images/OIP-removebg-preview 1.png" alt=""> applex.in</a></p>
-                </div>
-                
-            </section>
-            <section class="section">
-              
-                <div id="bolder">
-                <p ><h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</h1></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque odit ipsa iste quae vitae nesciunt dignissimos, perferendis non alias nobis, ipsum mollitia magni dicta omnis eius. Omnis, aut non. Quo.</p>
-              </div>
-              <div id="bolder1">
-                <div class="slider">
-                  <div class="img1 active">
-                    <img src="images/Rectangle 14.png" alt="">
-                  </div>
-                  <div class="img2">
-                    <img src="images/Rectangle 14.png" alt="">
-                  </div>
-                  <div class="img3">
-                    <img src="images/Rectangle 14.png" alt="">
-                  </div>
-                  <div class="img3">
-                    <img src="images/Rectangle 14.png" alt="">
-                  </div>
-                  <ul class="nav-do1" id="js-dot">
-                    <li class="nav-do"></li>
-                    <li class="nav-do"></li>
-                    <li class="nav-do"></li>
-                    <li class="nav-do"></li>
-                    <li class="nav-do"></li>
-                </ul>
-                </div>
-              </div>
-                  
-                
-              
-            </div>
-              
-            </section>
-            <section class="section">
-              <div id="bolder2">
-                <p ><h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</h1></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque odit ipsa iste quae vitae nesciunt dignissimos, perferendis non alias nobis, ipsum mollitia magni dicta omnis eius. Omnis, aut non. Quo.</p>
-              </div>
-              <img src="images/Rectangle 14.png" alt="" id="bolder4">
-            </section>
-            <section class="section">
-              <div id="bolder5">
-                <p ><h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</h1></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque odit ipsa iste quae vitae nesciunt dignissimos, perferendis non alias nobis, ipsum mollitia magni dicta omnis eius. Omnis, aut non. Quo.</p>
-              </div>
-              <div id="image-contain">
-                <img src="images/Screenshot_2021-03-02-16-38-57-075_com.applex 1.png" alt="" id="img3">
-                <img src="images/Screenshot_2021-03-02-16-38-46-848_com.applex 1.png" alt="" id="img1">
-                <img src="images/Screenshot_2021-03-02-16-38-52-123_com.applex 1.png" alt="" id="img2">
-                
-              </div>
-              
-            </section>
-            <section class="section">
-              <div id="utsav1">
-                <img src="images/logo-removebg-preview.png" alt="" id="main2">
-                <div id="utsav">UTSAV</div>
-                <h1 id="heading">Let's explore more of India</h1>
-                <p id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit<br> Error consectetur tempore placeat amet quis vitae fugit</p>
-                <button class="btn btn-warning" id="b4">LOGIN</button>
-                <button class="btn btn-warning" id="b1">SIGN-UP</button>
-                <p id="explore"><img src="images/imageedit_1_4694143777.png">Explore UTSAV</p>
-                <button id="download"><img src="images/iconfinder_logo_brand_brands_logos_playstore_google_2993672 1.png">Download Now</button>
-            </div>
-            <div id="utsav5">
-              <p><a href="" id="links">Terms</a> | <a href="" id="links">Privacy</a> | <a href="" id="links">Support</a></p>
-            </div>
-            <div id="utsav6">
-              <p><a href="" id="links"><img src="images/OIP-removebg-preview 1.png" alt=""> applex.in</a></p>
-            </div>
-            </section>
-        </main>
-    </body>
-    <script>
-        class Slider {
-          constructor(options) {
-            this.sections = document.querySelectorAll(options.section);
-            this.navigation = document.querySelector(options.dots);
+import React from  'react';
+import  './styles/MainHome.css';
 
-            this.navigation.addEventListener('click', this.scrollToSection.bind(this));
-            window.addEventListener('scroll', this.setDotStatus.bind(this));
-        }
+const MainHome = () => {
 
-        removeDotStyles() {
-          const dots = this.navigation;
-          const is_active = dots.querySelector('.is-active');
+    function Slider(props) {
+          props.sections = document.querySelectorAll(props.section);
+          props.navigation = document.querySelector(props.dots);
 
-          if (is_active != null) {
-            is_active.classList.remove('is-active');
+          props.navigation.addEventListener('click', props.scrollToSection.bind(props));
+          window.addEventListener('scroll', props.setDotStatus.bind(props));
+
+          const removeDotStyles = (props) => {
+            const dots = props.navigation;
+            const is_active = dots.querySelector('.is-active');
+  
+            if (is_active != null) {
+              is_active.classList.remove('is-active');
+            }
+          }
+  
+          const setDotStatus =(props) => {
+            const scroll_position = window.scrollY;
+            const dots = Array.from(props.navigation.children);
+  
+            props.sections.forEach((section, index) => {
+            const half_window = window.innerHeight / 2;
+            const section_top = section.offsetTop;
+  
+            if (scroll_position > section_top - half_window && scroll_position < section_top + half_window) {
+                props.removeDotStyles();
+                dots[index].classList.add('is-active');
+              }
+            })
+          }
+  
+          const scrollToSection =(e) => {
+            const dots = Array.from(props.navigation.children);
+            const window_height = window.innerHeight;
+  
+            dots.forEach((dot, index) => {
+              if (dot == e.target) {
+  
+                window.scrollTo({
+                  top: window_height * index,
+                  behavior: 'smooth',
+                });
+              }
+            });
           }
         }
+  
+        new Slider({
+          section: '.section',
+          dots: '#js-dots',
+        });
 
-        setDotStatus() {
-          const scroll_position = window.scrollY;
-          const dots = Array.from(this.navigation.children);
+        return(
+            <>
+            <ul className="nav-dots" id="js-dots">
+              <li className="nav-dot" />
+              <li className="nav-dot" />
+              <li className="nav-dot" />
+              <li className="nav-dot" />
+              <li className="nav-dot" />
+            </ul>
+            <main className="main">
+              <section className="section">
+                <img src="images/logo-removebg-preview.png" alt="" id="logo" />
+                <div id="utsav0">
+                  <button type="button" className="btn btn-warning b3" id="b3">LOGIN</button>
+                  <button type="button" className="btn btn-warning" id="b3">SIGN-UP</button>                   
+                  <button id="b2"><img src="images/7114151-512 1 (1).png" alt="" id="language" /></button>
+                </div>
+                <div id="utsav1">
+                  <img src="images/logo-removebg-preview.png" alt="" id="main2" />
+                  <div id="utsav">UTSAV</div>
+                  <h1 id="heading">Let's explore more of India</h1>
+                  <p id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit<br /> Error consectetur tempore placeat amet quis vitae fugit</p>
+                  <button className="btn btn-warning" id="b4">LOGIN</button>
+                  <button className="btn btn-warning" id="b1">SIGN-UP</button>
+                  <p id="explore"><img src="/images/imageedit_1_4694143777.png" />Explore UTSAV</p>
+                  <button id="download"><img src="images/iconfinder_logo_brand_brands_logos_playstore_google_2993672 1.png" />Download Now</button>
+                </div>
+                <div id="utsav2">
+                  <p><a href id="links">Terms</a> | <a href id="links">Privacy</a> | <a href id="links">Support</a></p>
+                </div>
+                <div id="utsav3">
+                  <p><a href id="links"><img src="images/OIP-removebg-preview 1.png" alt="" /> applex.in</a></p>
+                </div>
+              </section>
+              <section className="section">
+                <div id="bolder">
+                  <p /><h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</h1><p />
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque odit ipsa iste quae vitae nesciunt dignissimos, perferendis non alias nobis, ipsum mollitia magni dicta omnis eius. Omnis, aut non. Quo.</p>
+                </div>
+                <div id="bolder1">
+                  <div className="slider">
+                    <div className="img1 active">
+                      <img src="images/Rectangle 14.png" alt="" />
+                    </div>
+                    <div className="img2">
+                      <img src="images/Rectangle 14.png" alt="" />
+                    </div>
+                    <div className="img3">
+                      <img src="images/Rectangle 14.png" alt="" />
+                    </div>
+                    <div className="img3">
+                      <img src="images/Rectangle 14.png" alt="" />
+                    </div>
+                    <ul className="nav-do1" id="js-dot">
+                      <li className="nav-do" />
+                      <li className="nav-do" />
+                      <li className="nav-do" />
+                      <li className="nav-do" />
+                      <li className="nav-do" />
+                    </ul>
+                  </div>
+                </div>
+              </section>
+              <section className="section">
+                <div id="bolder2">
+                  <p /><h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</h1><p />
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque odit ipsa iste quae vitae nesciunt dignissimos, perferendis non alias nobis, ipsum mollitia magni dicta omnis eius. Omnis, aut non. Quo.</p>
+                </div>
+                <img src="images/Rectangle 14.png" alt="" id="bolder4" />
+              </section>
+              <section className="section">
+                <div id="bolder5">
+                  <p /><h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</h1><p />
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque odit ipsa iste quae vitae nesciunt dignissimos, perferendis non alias nobis, ipsum mollitia magni dicta omnis eius. Omnis, aut non. Quo.</p>
+                </div>
+                <div id="image-contain">
+                  <img src="images/Screenshot_2021-03-02-16-38-57-075_com.applex 1.png" alt="" id="img3" />
+                  <img src="images/Screenshot_2021-03-02-16-38-46-848_com.applex 1.png" alt="" id="img1" />
+                  <img src="images/Screenshot_2021-03-02-16-38-52-123_com.applex 1.png" alt="" id="img2" />
+                </div>
+              </section>
+              <section className="section">
+                <div id="utsav1">
+                  <img src="images/logo-removebg-preview.png" alt="" id="main2" />
+                  <div id="utsav">UTSAV</div>
+                  <h1 id="heading">Let's explore more of India</h1>
+                  <p id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit<br /> Error consectetur tempore placeat amet quis vitae fugit</p>
+                  <button className="btn btn-warning" id="b4">LOGIN</button>
+                  <button className="btn btn-warning" id="b1">SIGN-UP</button>
+                  <p id="explore"><img src="images/imageedit_1_4694143777.png" />Explore UTSAV</p>
+                  <button id="download"><img src="images/iconfinder_logo_brand_brands_logos_playstore_google_2993672 1.png" />Download Now</button>
+                </div>
+                <div id="utsav5">
+                  <p><a href id="links">Terms</a> | <a href id="links">Privacy</a> | <a href id="links">Support</a></p>
+                </div>
+                <div id="utsav6">
+                  <p><a href id="links"><img src="images/OIP-removebg-preview 1.png" alt="" /> applex.in</a></p>
+                </div>
+              </section>
+            </main>
+          </>
+        );
+    }
 
-          this.sections.forEach((section, index) => {
-          const half_window = window.innerHeight / 2;
-          const section_top = section.offsetTop;
-
-          if (scroll_position > section_top - half_window && scroll_position < section_top + half_window) {
-              this.removeDotStyles();
-              dots[index].classList.add('is-active');
-            }
-          })
-        }
-
-        scrollToSection(e) {
-          const dots = Array.from(this.navigation.children);
-          const window_height = window.innerHeight;
-
-          dots.forEach((dot, index) => {
-            if (dot == e.target) {
-
-              window.scrollTo({
-                top: window_height * index,
-                behavior: 'smooth',
-              });
-            }
-          });
-        }
-      }
-
-      new Slider({
-        section: '.section',
-        dots: '#js-dots',
-      });
-      
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
-    <script>
-      
-      var set = setInterval(slideRight,3000);
-      var index = 0;
-
-      $dot = $("#js-dot li");
-      $img = $('.slider div');
-
-
-      $dot.click(function(){
-        n = $(this).index();
-        index = n;
-        showSlide(n);
-      })
-        
-      function slideRight(){showSlide(index+=1);}
-      function slideLeft(){showSlide(index-=1);}
-
-      function showSlide(n){
-        
-        clearInterval(set);
-        set = setInterval(slideRight,3000);
-        
-        var active = $('.active').index();
-        
-        $('.block').removeClass('block');
-        $('.active').addClass('block').removeClass('right left active');
-        $('.on').removeClass('on');
-          
-        if(index > $img.length-1){
-          index = 0;
-          n = 0;
-        }
-        if(index === -1){
-          index = $img.length-1;
-        }
-        if(n > active){
-          $img.eq(n).addClass('right active');
-          console.log('right');
-        }else{
-          $img.eq(n).addClass('left active');
-          console.log('left');
-        }
-        $dot.eq(n).addClass('on');
-      }
-    </script>
-    
-</html>
+export default MainHome;
